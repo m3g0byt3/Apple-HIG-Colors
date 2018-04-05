@@ -1,6 +1,6 @@
 # Apple HIG colors
 ---
-Color pallete in **.clr** format (Apple's Color Paletes) with colors from [Apple Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/visual-design/color/) for iOS.
+Color pallete in **.clr** format (Apple's Color Paletes) with colors from [Apple Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/visual-design/color/) for iOS. Color pallete using **RGB** (**"generic" RGB**, not **sRGB IEC61966-2.1**) color space to allow importing by frameworks like R.Swift.
 Use it with frameworks like [R.swift](https://github.com/mac-cain13/R.swift), [SwiftGen](https://github.com/SwiftGen/SwiftGen) or stand-alone.
 
 Contains followings colors:
@@ -20,7 +20,10 @@ Contains followings colors:
 ---
 * **Standalone:**
 	
-	Just copy **Apple HIG.clr** to **~/Library/Colors/** folder, it will appear in Color Pallete utility:
+	Just copy **Apple HIG.clr** to the **~/Library/Colors/** folder:
+	`cp Apple\ HIG.clr ~/Library/Colors/`
+	
+	It will appear in Color Pallete utility:
 	
 	![](Images/screenshot2.png)
 
